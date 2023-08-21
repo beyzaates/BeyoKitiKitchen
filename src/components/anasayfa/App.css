@@ -1,0 +1,123 @@
+
+  
+  .button{
+    padding: 10px;
+    width: 300px;
+    height:40px;
+    border:1px solid black;
+    margin:10px 0;
+    background-color: pink;
+    color: blueviolet;
+}
+
+.card{
+  width: calc(20% - 20px); /* Kart genişliği ve iç boşlukları */
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top:20px;
+  
+}
+
+.container {
+  display: flex;
+  padding-left: 60px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 30px; /* Kartlar arasındaki boşluk */
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(80% - 20px); /* Mobilde 2 kart yan yana */
+  }
+}
+
+.img{
+
+  height: 300px;
+  width: 300px;
+}
+
+input{
+  padding: 10px;
+  width: 300px;
+  border:1px solid black;
+  margin:10px 0
+}
+
+button{
+  padding: 10px;
+  width: 300px;
+  border:1px solid black;
+  margin:10px 0;
+  background-color: pink;
+  color: blueviolet;
+}
+
+.form{
+  width: 400px;
+  padding: 20px;
+  margin-top: 30px;
+  border:1px solid black;
+  background-color: plum;
+}
+.form>div{
+  margin: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  
+ }
+
+ .form>div>label
+ {
+  display: block;
+ }
+
+ .formiss{
+
+  margin: 10px;
+  background-color:plum;
+ padding: 50px;
+  width: 400px;
+  border:1px solid black;
+ 
+ }
+
+ .mesaj{
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+ }
+
+ .butis{
+  background-color: pink;
+ }
+
+ .yazi{
+  text-align: center;
+  
+ }
+
+ .hakkimizda{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+
+
+  
+  
+  
+  
+ }
+
+ .hak-img{
+  display: block;
+  margin: 0 auto;
+  
+ }
